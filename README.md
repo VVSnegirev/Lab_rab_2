@@ -2,4 +2,6 @@
 Текст задания: Чат-бот «Первокурсник» - FAQ для новичков в вузе.
 ![image](https://github.com/VVSnegirev/Lab_rab_2/assets/124861933/07771900-a87a-4c66-97cc-307b3c27c7d8)
 ![image](https://github.com/VVSnegirev/Lab_rab_2/assets/124861933/412f0dff-9e3c-4cb1-a292-704ea6696df4)
+
+
 У получившегося бота не очень много функций, упор делался на ссылки и инфу.
