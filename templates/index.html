@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Конвертер курсов валют</title>
+</head>
+<body text="#263f40" bgcolor="#84c3be">
+    <h1>           Курс валют           </h1>
+    <form method="POST" action="/convert">
+        <label for="currency_from">Из какой валюты перевести:</label>
+        <select name="currency_from" id="currency_from">
+            <option value="USD">Доллар США</option>
+            <option value="EUR">Евро</option>
+            <option value="CHF">Швейцарский франк</option>
+            <option value="GBP">Фунт стерлингов</option>
+            <option value="CNY">Юань</option>
+        </select>
+        <br>
+        <label for="currency_to">В какую валюту перевести:</label>
+        <select name="currency_to" id="currency_to">
+            <option value="USD">Доллар США</option>
+            <option value="EUR">Евро</option>
+            <option value="CHF">Швейцарский франк</option>
+            <option value="GBP">Фунт стерлингов</option>
+            <option value="CNY">Юань</option>
+        </select>
+        <br>
+        <label for="amount">Количество валюты:</label>
+        <input type="number" name="amount" id="amount">
+        <br>
+        <input type="submit" value="                                    Конвертировать                                        ">
+    </form>
+</body>
+</html>
