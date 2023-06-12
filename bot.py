@@ -61,7 +61,7 @@ def StartBot():
         keyboard.add(types.InlineKeyboardButton(text="Группа ОмГТУ ВКонтакте", url="https://vk.com/omskpoliteh"))
         await message.answer("Что подсказать?.", reply_markup=keyboard)
 
-    @dp.callback_query_handler(text=["menu_map", "menu_rasp", "menu_faculties"])
+    @dp.callback_query_handler(text=["menu_rasp", "menu_faculties"])
     async def menu_messages(call: types.CallbackQuery):
         if call.data == "menu_rasp":
             await RaspChoice(call.message)
